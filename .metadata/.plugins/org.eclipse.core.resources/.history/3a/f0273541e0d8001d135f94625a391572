@@ -1,0 +1,26 @@
+package dominando.IDEs.java.model;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Gato gato = new Gato();
+		Livros livros = new Livros("nome", "npag");
+		
+		System.out.println(gato);
+		System.out.println(livros);
+	}
+
+}
+
+class Livros{
+	private String nome;
+	private String npag;
+	
+	public Livros(String nome, String npag) {
+		this.nome = nome;
+		this.npag = nome;
+	}
+
+	
+	
+}
